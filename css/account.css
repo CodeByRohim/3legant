@@ -1,0 +1,130 @@
+#account{
+  padding: 80px 0;
+}
+#account h1{
+  font-family: var(--second-family);
+font-weight: 500;
+font-size: 54px;
+line-height: 107%;
+letter-spacing: -0.02em;
+color: var(--brand-color);
+
+}
+#account .card{
+  border: none;
+  padding-left: 35px;
+}
+#account .card h3{
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 20px;
+line-height: 160%;
+color: var(--brand-color);
+margin-bottom: 12px;
+}
+#account .card p{
+  font-family: var(--font-family);
+font-style: italic;
+font-weight: 400;
+font-size: 12px;
+line-height: 167%;
+color: var(--neutral-04-1000);
+
+}
+#account .card label{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 12px;
+line-height: 100%;
+text-transform: uppercase;
+color: var(--neutral-04-1000);
+margin: 12px 0;
+}
+#account .card input::placeholder{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+color: var(--neutral-04-1000);
+}
+#account .card button{
+  border: none;
+  margin-top: 24px;
+  border-radius: 8px;
+padding: 12px 40px;
+background: var(--neutral-07-1000);
+
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: -0.03em;
+text-align: center;
+color: #fff;
+
+}
+#account .card button:focus,
+#account .card button:hover{
+  background-color: var(--neutral-06-900);
+}
+
+
+#account .user{
+  background: var(--neutral-02-1000);
+  border-radius: 8px;
+  max-height: 498px;
+}
+#account .user .user-img{
+padding: 40px 0;
+}
+#account .user .user-img h2{
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 20px;
+line-height: 160%;
+color: var(--brand-color);
+
+}
+#account .links{
+  padding: 0 16px;
+}
+#account .links h4{
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 162%;
+color: var(--neutral-07-1000);
+
+}
+#account .links li{
+  padding: 12px 0;
+}
+#account .links li a{
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 162%;
+color: var(--neutral-04-1000);
+
+}
+#account .links li a:hover{
+  color: var(	--neutral-06-900);
+}
+footer {
+  padding: 40px 0 32px 0;
+
+}
+
+@media  (max-width: 576px) {
+  #account {
+    padding: 12px 0;
+}
+  #account .user {
+    margin: auto;
+    width: 95%;
+  }
+  #account h1 {
+    font-size: 30px;
+    margin-bottom: 14px !important;
+}
+}

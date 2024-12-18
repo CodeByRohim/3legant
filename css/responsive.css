@@ -125,6 +125,14 @@ color: var(--neutral-07-1000);
   color: var(--brand-color);
   font-size: 25px;
 }
+/* TOP AND BOTTOM UPDOWN BUTTON START */
+#backToTop{
+  position: fixed;
+  bottom: 65px;
+  right: 20px;
+  padding: 10px;
+}
+/* TOP AND BOTTOM UPDOWN BUTTON END */
 /* sm bottom navbar end */
 /* banner start */
 #banner{
@@ -375,12 +383,7 @@ color: var(--neutral-03-1000);
 margin-top: 28px;
 }
 /* footer end */
-
-
-
-
-
-
+/* INDEX FILE END HERE */
 
 
 

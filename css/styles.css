@@ -168,7 +168,19 @@ justify-content: end;
   color: var(--neutral-07-1000);
 }
 /* HEADER MIDDLE ENDS HERE*/
-
+/* TOP AND BOTTOM UPDOWN BUTTON START */
+#backToTop{
+  /* display: none; */
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  padding: 15px;
+  border-radius: 100%;
+  color: var(--neutral-01-1000);
+  background-color: var(--neutral-06-1000);
+  z-index: 11;
+}
+/* TOP AND BOTTOM UPDOWN BUTTON END */
 /* BANNER START HERE */
 #banner {
   display: flex;

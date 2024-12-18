@@ -15,7 +15,7 @@
 
 <body class="">
     <!-- HEADER STARTS HERE -->
-    <header>
+    <header id="header">
         <!-- HEADER TOP STARTS -->
         <section id="header-top">
             <div class="container">
@@ -44,7 +44,7 @@
 
                     <div class="col-md-8 pages">
                        <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home <i class="fa-solid fa-angle-down"></i></a></li>
                         <li><a href="#">Shop <i class="fa-solid fa-angle-down"></i></a></li>
                         <li><a href="#">Product <i class="fa-solid fa-angle-down"></i></a></li>
                         <li><a href="#">Contact Us <i class="fa-solid fa-angle-down"></i></a></li>
@@ -54,8 +54,8 @@
                     <div class="col-md-2 quickLinks text-end">
                         <ul>
                             <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                            <li><a href="#"><i class="fa-solid fa-circle-user"></i></a></li>
-                            <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                            <li><a href="./account.html"><i class="fa-solid fa-circle-user"></i></a></li>
+                            <li><a href="./cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -199,13 +199,18 @@
                     <ul class="d-flex align-items-center justify-content-evenly">
                         <li><a href="#"><i class="img-fluid fa-solid fa-house"></i></a></li>
                         <li><a href="#"><i class="img-fluid fa-solid fa-heart"></i></a></li>
-                        <li><a href="#"><i class="img-fluid fa-solid fa-cart-shopping"></i></a></li>
+                        <li><a href="./test.html"><i class="img-fluid fa-solid fa-cart-shopping"></i></a></li>
                         <li><a href="#"><i class="img-fluid fa-solid fa-user"></i></a></li>
                     </ul>
                 </div>
             </div>
           </div>
           <!-- SM BOTTOM NAVBAR END -->
+           <!-- TOP AND BOTTOM UPDOWN BUTTON START -->
+            <div id="backToTop">
+                <i class="fa-solid fa-angle-up"></i>
+            </div>
+            <!-- TOP AND BOTTOM UPDOWN BUTTON END-->
     </header>
     <!-- HEADER ENDS HERE -->
 <main>
@@ -474,14 +479,6 @@
  </section>
  <!-- COLLECTION ENDS HERE -->
    <!-- BEST SELLERS STARTS HERE -->
-    <!-- <section id="best-sellers">
-        <div class="container">
-            <h2>Best Sellers</h2>
-            <div class="row">
-
-            </div>
-        </div>
-    </section> -->
     
     <section id="new-arrivals">
         <div class="container smNewArrivals">
@@ -801,7 +798,7 @@
 
             <!-- NEWSLETTER END HERE -->
          <!-- FOOTER SECTION START -->
-         <footer>
+         <footer id="footer">
             <div class="container d-none d-lg-block">
                 <div class="d-flex flex-wrap justify-content-between align-items-center">
                     <!-- 1 -->
@@ -883,7 +880,6 @@
              </div>
              <!-- FOR SM FOOTER END -->
          </footer>
-
           <!-- FOOTER SECTION END -->
     </main>
     <script src="./js/bootstrap.bundle.min.js"></script>

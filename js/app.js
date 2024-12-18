@@ -26,9 +26,7 @@ $(document).ready(function () {
       $(this).hide(); // Hide search icon
       $('.smSearchBtn .closeIcon').show(); // Show close icon
       $('.smMsearch').addClass('searchSm2'); // Add the custom class
-      
-
-      var mixer = mixitup('.mix-it');
+      // var mixer = mixitup('.mix-it');
   });
 
   $('.smSearchBtn .closeIcon').click(function () {
@@ -84,8 +82,10 @@ $('.darkModeBtn').click(function () {
 $(window).on('load', function(){
   $('#preloader').fadeOut(1500);
 });
-// BACK TO TOP BUTTON
 
+
+
+// BACK TO TOP BUTTON
 $("#backToTop").click(function(){
   $("html,body").animate({scrollTop: 0}, 500);
 })
@@ -93,34 +93,9 @@ $("#backToTop").click(function(){
 //  back to top button show/hide
 $(window).scroll(function () {
   let scrollTop = $(window).scrollTop();
-  if (scrollTop > 0) {
+  if (scrollTop >= 200) {
     $('#backToTop').addClass('backToTop');
   } else {
     $('#backToTop').removeClass('backToTop');
   }
 });
-
-
-// ORDER SYSTEM
-// Script.js
-const cartItems = [];
-const cartTotalElement = document.getElementById('cart-total');
-const cartItemsElement = document.getElementById('cart-items');
-const orderForm = document.getElementById('order-form');
-
-// Add to Cart Function
-document.querySelectorAll('.add-to-cart').forEach(button => {
-  button.addEventListener('click', () => {
-    const name = button.getAttribute('data-name');
-    const price = parseFloat(button.getAttribute('data-price'));
-    const item = cartItems.find(item => item.name === name);
-    if (item) {
-      item.quantity++;
-    } else {
-      cartItems.push({ name, price, quantity: 1 });
-    }
-    updateCart();
-  });
-});
-
-
