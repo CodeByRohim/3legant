@@ -22,11 +22,11 @@ $("#backToTop").click(function(){
   })
   
   //  back to top button show/hide
-  $(window).scroll(function () {
-    let scrollTop = $(window).scrollTop();
-    if (scrollTop >- 1200) {
-      $('#backToTop').addClass('backToTop');
-    } else {
-      $('#backToTop').removeClass('backToTop');
-    }
-  });
+  // $(window).scroll(function () {
+  //   let scrollTop = $(window).scrollTop();
+  //   if (scrollTop >- 1200) {
+  //     $('#backToTop').addClass('backToTop');
+  //   } else {
+  //     $('#backToTop').removeClass('backToTop');
+  //   }
+  // });
